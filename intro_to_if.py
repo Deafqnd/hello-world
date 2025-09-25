@@ -1,6 +1,6 @@
-robot_location = 30
-ball_location = 35
-goal_location = 20
+robot_location = 40
+ball_location = 45
+goal_location = 30
 have_ball = False
 
 if robot_location < ball_location:
