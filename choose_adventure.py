@@ -45,4 +45,4 @@ elif r1 == 'impatient':
             print(f'Incredible job! Your pace was unmatchable today! If you hadn\'t had to start from last, you probably would\'ve finished on the podium! Great job, {name}!')
         elif r7 == 'restraint':
             position == 5
-            print(f'Awesome! You definetly had more pace in you, but those tyres might not\'ve gone the distance! Great work and smart management! P5, P5! See ya back in the pitlane!')
+            print(f'Awesome! You definetly had more pace in you, but those tyres might not\'ve gone the distance! Great work and smart management! P5, P5! See ya back in the pitlane, {name}!')
