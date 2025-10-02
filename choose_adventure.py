@@ -14,6 +14,7 @@ else:
     print(f'Wonderful! Now, let\'s begin, {name}!')
 
 position = 22
+points = 0
 
 print()
 r1 = input('You are starting a go-kart race from last! You need to make up places quickly. \nAre you more of a "patient" person, or "impatient" person? ')
@@ -107,3 +108,36 @@ elif r1 == 'divebomb':
             print('Awesome job man! Not nearly a win, but you\'ve finished P2, still an incredible job from last on the grid! \nYou should be proud of yourself!')
 
 print(f'Congrats, {name}! You\'ve done well to finish P{position} in your first ever race! I hope to see you again later down the line!')
+
+if position == 1:
+    points += 25
+    print(f'You scored {points} points on this run! You left nothing on the table this time!')
+elif position == 2:
+    points += 18
+    print(f'You scored {points} points on this run! So close to the win, yet so far away! Better luck next time!')
+elif position == 3:
+    points += 15
+    print(f'You scored {points} points on this run! Great job finishing on the podium!')
+elif position == 4:
+    points += 12
+    print(f'You scored {points} points on this run! That\'s a great points haul for your first time!')
+elif position == 5:
+    points += 10
+    print(f'You scored {points} points on this run! That\'s a great points haul for your first time!')
+elif position == 6:
+    points += 8
+    print(f'You scored {points} points on this run! That\'s a great points haul for your first time!')
+elif position == 7:
+    points += 6
+    print(f'You scored {points} points on this run! Great job for your first race!')
+elif position == 8:
+    points += 4
+    print(f'You scored {points} points on this run! Great job for your first race!')
+elif position == 9:
+    points += 2
+    print(f'You scored {points} points on this run! Great job for your first race!')
+elif position == 10:
+    points += 1
+    print(f'You scored {points} points on this run! Great job for your first race!')
+else:
+    print('Great job on your first race! You didn\'t score any points this time, but you\'ve done good to keep it out of the wall! \nHope to see you again!')
