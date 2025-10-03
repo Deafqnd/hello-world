@@ -49,13 +49,13 @@ else:
 
 # Question 5: True & False
 
-# True
-# False
-# True, True
-# False
-# False
+# T
+# F
+# T
+# F
+# T
+# F
+# F
 # Dont Know
-# False
-# Dont Know
-# True
-# True
+# T 
+# T
